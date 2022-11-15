@@ -1,0 +1,40 @@
+/* AGT: Començament del CSS */
+/* AGT: Importam la font roboto de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+    .flex{
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: #03045e;
+    font-size: 15px;
+}
+
+.home {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.galeria {
+    color: white;
+}
+
+.galeria:hover {
+    background-color: rgb(100, 200, 255);
+}
+
+.reserva {
+    color: white;
+}
+
+.reserva:hover {
+    background-color: rgb(100, 200, 255);
+}
